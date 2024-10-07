@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar__logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar__links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+  }
+  
+  .navbar__user button {
+    margin-left: 10px;
+  }
+  
