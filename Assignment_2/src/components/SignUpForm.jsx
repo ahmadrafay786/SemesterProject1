@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignUpForm = () => {
   return (
@@ -6,9 +7,7 @@ const SignUpForm = () => {
       <div className="d-table-cell align-middle">
         <div className="text-center mt-4">
           <h1 className="h2">Get started</h1>
-          <p className="lead">
-            Start creating the best possible user experience for your customers.
-          </p>
+          <p className="lead">Create an account to start your journey.</p>
         </div>
         <div className="card">
           <div className="card-body">
@@ -51,7 +50,7 @@ const SignUpForm = () => {
           </div>
         </div>
         <div className="text-center mb-3">
-          Already have an account? <a href="/SignIn">Log In</a>
+          Already have an account? <Link to="/SignIn">Log In</Link>
         </div>
       </div>
     </div>

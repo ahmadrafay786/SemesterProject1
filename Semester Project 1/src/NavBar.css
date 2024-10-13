@@ -1,17 +1,21 @@
 .navbar {
+  width: auto;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #fff;
+    background-color: black;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .navbar__logo {
+    color: white;
     font-size: 24px;
     font-weight: bold;
   }
   
   .navbar__links {
+    cursor: pointer;
+    color: white;
     display: flex;
     list-style-type: none;
     gap: 20px;

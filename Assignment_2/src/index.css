@@ -66,3 +66,66 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Ensure the body occupies the full viewport */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Container to center the content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Profile card styles */
+.card {
+  width: 100%;
+  max-width: 400px; /* Max width for the card */
+  border: none; /* No border for a cleaner look */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Card header styles */
+.card-header {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text for contrast */
+  border-radius: 10px 10px 0 0; /* Round top corners */
+}
+
+/* Button styles */
+.btn {
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Badge styles */
+.badge {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+/* Additional spacing for card content */
+.card-body {
+  padding: 20px; /* More padding for inner content */
+}
+
+/* About and Elsewhere section styles */
+h5.card-title {
+  margin-bottom: 10px; /* Space below titles */
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px; 
+  }
+}
